@@ -8,6 +8,8 @@ read -p "Nuevo nombre> " nombreNuevo
         echo "No se puede recnombrar"
         else
         mv ./$nombreDirectorio ./$nombreNuevo
+        echo "Se ha renombreado correctamente"
+        echo "$nombreDirectorio -> $nombreNuevo"
     fi
     
     else
