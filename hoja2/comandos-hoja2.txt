@@ -1,0 +1,21 @@
+ej1
+----
+sudo apt-get update
+
+ej2
+----
+mkdir ISO_ASIR
+mkdir ISO_ASIR/UD1 ISO_ASIR/UD2 ISO_ASIR/UD3
+ls ISO_ASIR
+tree ISO_ASIR
+rm -d ISO_ASIR/UD3
+
+ej4
+----
+touch ISO_ASIR/UD1/minscript.s
+mv ISO_ASIR/UD1/minscript.sh ISO_ASIR/UD2
+
+ej5
+----
+grep -n echo miscript.sh
+
