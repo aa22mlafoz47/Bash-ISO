@@ -1,3 +1,3 @@
 # Bash-ISO
 
-Ejercicios bash 
+Ejercicios bash de repaso
