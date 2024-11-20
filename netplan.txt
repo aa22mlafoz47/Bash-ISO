@@ -1,0 +1,22 @@
+network:
+  version: 2
+  ethernets:
+    enp0s3:
+      renderer: NetworkManager
+      match: {}
+      addresses:
+      - "192.168.1.100/24"
+      nameservers:
+        addresses:
+        - 8.8.8.8
+        - 8.8.4.4
+      networkmanager:
+        uuid: "1eef7e45-3b9d-3043-bee3-fc5925c90273"
+        name: "netplan-enp0s3"
+        passthrough:
+          connection.timestamp: "1732103364"
+          ipv4.address1: "192.168.1.100/24,10.0.2.2"
+          ipv4.method: "manual"
+          ipv6.method: "disabled"
+          ipv6.ip6-privacy: "-1"
+          proxy._: ""
